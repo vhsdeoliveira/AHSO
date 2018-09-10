@@ -2109,15 +2109,6 @@ This annotation gives any additional notes. Look for this name in the specific c
     
 
 
-    <!-- https://w3id.org/ahso#AM_patho -->
-
-    <owl:Class rdf:about="https://w3id.org/ahso#AM_patho">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#pathological_examination"/>
-        <rdfs:label>Ante Mortem Pathological Examination</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://w3id.org/ahso#AT01A -->
 
     <owl:Class rdf:about="https://w3id.org/ahso#AT01A">
@@ -3609,15 +3600,6 @@ This annotation gives any additional notes. Look for this name in the specific c
         <SSD_termCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K034A</SSD_termCode>
         <SSD_termExtendedName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surveillance, based on Regulation 2073</SSD_termExtendedName>
         <SSD_termScopeNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It is used to report the samples collected and analysed according to the Regulation 2073/2005 on microbiological criteria. These samples can be taken either to check the compliance with Process hygiene criteria (Salmonella in carcases (2.1.3, 2.1.4, 2.1.5)) or with Food Safety criteria (Salmonella in meat and meat products (1.4 to 1.20, 1.22; 1.23; 1.28), Listeria monocytogenes (1.1, 1.2, 1.3), Staphylococcus enterotoxins (1.21), Cronobacter (1.24), Histamine (1.26; 1.27;1.27a), STEC (1.29)).</SSD_termScopeNote>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/ahso#PM_patho -->
-
-    <owl:Class rdf:about="https://w3id.org/ahso#PM_patho">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#pathological_examination"/>
-        <rdfs:label>Post Mortem Pathological Examination</rdfs:label>
     </owl:Class>
     
 
